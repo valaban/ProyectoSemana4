@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informes - Iztapalapa</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Solicita más Información sobre Iztapalapa</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="visita.html">Visita</a></li>
+                <li><a href="informes.html">Informes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <p>Por favor, completa el formulario para recibir más detalles sobre Iztapalapa.</p>
+            <!-- Lugar para agregar una imagen decorativa relacionada con el formulario -->
+            <img src="https://www.civitatis.com/f/mexico/ciudad-de-mexico/tour-itzapalapa-teleferico-589x392.jpg" alt="Imagen decorativa del formulario">
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre (opcional)">
+                
+                <label for="telefono">Número de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu número de contacto" required>
+                
+                <label for="email">Correo de Contacto:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tus dudas aquí" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Iztapalapa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
