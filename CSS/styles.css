@@ -32,7 +32,11 @@ main {
     padding: 20px;
 }
 
-h1, h2, h3 {
+header h1 {
+    color: white;
+}
+
+h2, h3 {
     color: #4CAF50;
 }
 
@@ -90,4 +94,44 @@ form button {
 
 form button:hover {
     background-color: #45a049;
+}
+
+
+
+/* Estilos generales para las secciones */
+main section {
+    text-align: center; /* Centra el contenido del contenedor */
+    margin-bottom: 40px; /* Añade un margen inferior para separar las secciones */
+}
+
+main section img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    max-width: 500px; /* Ajusta el ancho máximo a 500 píxeles */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-top: 20px; /* Añade un margen superior para separar de otros elementos */
+}
+
+
+
+
+/*#historia {
+/*    text-align: center; /* Centra el contenido del contenedor */
+/*}
+
+/*#historia img {
+/*    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+/*    max-width: 600px; /* Ajusta el ancho máximo a 600 píxeles */
+/*    height: auto; /* Mantiene la relación de aspecto */
+/*    margin-top: 20px; /* Añade un margen superior para separar de otros elementos */
+/*} 
+
+
+        /* Estilo para el texto "Bienvenido a Iztapalapa" */
+.welcome-text {
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: green; /* Mantén el fondo verde si lo deseas */
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
